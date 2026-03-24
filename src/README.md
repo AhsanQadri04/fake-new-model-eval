@@ -191,3 +191,21 @@ python src/inference/compare_inference_results.py \
   --output-json output/inference/comparison.json \
   --output-csv output/inference/comparison.csv
 ```
+
+## Step 6: Report Visualizations
+
+Generate report-ready figures from all artifacts:
+
+```bash
+python src/visualizations/generate_report_visualizations.py
+```
+
+Outputs are saved in:
+- `output/visualizations/`
+
+Key generated files include:
+- metric comparison heatmaps and grouped bars
+- per-model confusion matrices
+- training curves for RNN-family and transformer
+- dataset label/length distribution plots
+- `training_metrics_table.csv`, `inference_metrics_table.csv`, and `manifest.json`
