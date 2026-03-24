@@ -1,0 +1,55 @@
+{
+  "model_name": "TFIDF+LogReg",
+  "model_kind": "tfidf_logreg",
+  "model_dir": "C:\\Dev\\NLP_Ass\\output\\tfidf_logreg",
+  "data_dir": "C:\\Dev\\NLP_Ass\\output\\split",
+  "split": "test",
+  "text_col": "clean_text",
+  "label_col": "label",
+  "threshold_used": 0.5,
+  "num_samples": 942,
+  "metrics": {
+    "accuracy": 0.7855626326963907,
+    "precision": 0.7545454545454545,
+    "recall": 0.672972972972973,
+    "f1": 0.7114285714285714,
+    "roc_auc": 0.8493951993951995,
+    "confusion_matrix": [
+      [
+        491,
+        81
+      ],
+      [
+        121,
+        249
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.8022875816993464,
+        "recall": 0.8583916083916084,
+        "f1-score": 0.8293918918918919,
+        "support": 572.0
+      },
+      "1": {
+        "precision": 0.7545454545454545,
+        "recall": 0.672972972972973,
+        "f1-score": 0.7114285714285714,
+        "support": 370.0
+      },
+      "accuracy": 0.7855626326963907,
+      "macro avg": {
+        "precision": 0.7784165181224005,
+        "recall": 0.7656822906822907,
+        "f1-score": 0.7704102316602317,
+        "support": 942.0
+      },
+      "weighted avg": {
+        "precision": 0.783535366150578,
+        "recall": 0.7855626326963907,
+        "f1-score": 0.7830581035995049,
+        "support": 942.0
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "model_name": "SimpleRNN",
+  "model_kind": "rnn_family",
+  "model_dir": "C:\\Dev\\NLP_Ass\\output\\rnn_output",
+  "model_file": "C:\\Dev\\NLP_Ass\\output\\rnn_output\\rnn_model.keras",
+  "data_dir": "C:\\Dev\\NLP_Ass\\output\\split",
+  "split": "test",
+  "text_col": "clean_text",
+  "label_col": "label",
+  "threshold_used": 0.5,
+  "max_len_used": 700,
+  "truncate_strategy": "post",
+  "num_samples": 942,
+  "metrics": {
+    "accuracy": 0.5010615711252654,
+    "precision": 0.3858447488584475,
+    "recall": 0.45675675675675675,
+    "f1": 0.4183168316831683,
+    "roc_auc": 0.49498204498204496,
+    "confusion_matrix": [
+      [
+        303,
+        269
+      ],
+      [
+        201,
+        169
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.6011904761904762,
+        "recall": 0.5297202797202797,
+        "f1-score": 0.5631970260223048,
+        "support": 572.0
+      },
+      "1": {
+        "precision": 0.3858447488584475,
+        "recall": 0.45675675675675675,
+        "f1-score": 0.4183168316831683,
+        "support": 370.0
+      },
+      "accuracy": 0.5010615711252654,
+      "macro avg": {
+        "precision": 0.4935176125244618,
+        "recall": 0.4932385182385182,
+        "f1-score": 0.4907569288527366,
+        "support": 942.0
+      },
+      "weighted avg": {
+        "precision": 0.5166066979390423,
+        "recall": 0.5010615711252654,
+        "f1-score": 0.5062907925769964,
+        "support": 942.0
+      }
+    }
+  }
+}
